@@ -1,7 +1,6 @@
 ul.topnav {
   list-style-type: none;
   margin: 0px;
-  padding: 0;
   display: inline;
 }
 
@@ -29,6 +28,5 @@ a {
   margin-right: auto;
   width: 30%;
   padding: 10px;
-  border: solid;
 }
 
