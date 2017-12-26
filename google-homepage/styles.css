@@ -1,8 +1,11 @@
-.logo {
+ul .topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: block;
-  margin: auto;
-  width: 30%;
-  padding: 10px;
+  margin: 10px;
+  border: none; 
+}
 
 .right {
   float: right;
@@ -11,8 +14,19 @@
 }
 
 .left {
-  position: absolute;
-  left:3px;
+  float: left;
+  left: 3px;
   padding: 2px;
+}
 
+.logo {
+  display: inherit;
+  padding-top: 70px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+  border: solid;
+}
 
