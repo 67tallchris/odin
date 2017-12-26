@@ -1,18 +1,19 @@
-ul.topnav {
+ul {
   list-style-type: none;
   margin: 0px;
   padding: 0;
   display: inline;
+  top: 5px;
 }
 
 .right {
-  float: right;
+  right: fixed;
   right: 3px;
   padding: 2px;
 }
 
 .left {
-  float: left;
+  left: fixed;
   left: 3px;
   padding: 2px;
 }
