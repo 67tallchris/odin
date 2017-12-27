@@ -28,9 +28,10 @@ a {
 }
 
 .logo {
-  margin-top: 70px;
   width: 30%;
   display: block;
+  margin-top: 70px;
+ 
 }
 
 .inputbox [type=text] {
@@ -39,5 +40,5 @@ a {
 }
 
 form {
-  display: block;
+  text-align: center;
 }
