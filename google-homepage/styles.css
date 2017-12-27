@@ -22,19 +22,22 @@ a {
 }
 
 .logo, .inputbox {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
   padding: 10px;
 }
 
 .logo {
   margin-top: 70px;
- 
+  width: 30%;
+  display: block;
 }
 
 .inputbox [type=text] {
   padding: 12px 20px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+form {
+  display: block;
 }
