@@ -11,6 +11,11 @@ li {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .87);
+}
+
 .right {
   float: right;
   right: 3px;
@@ -21,26 +26,31 @@ li {
   padding: 8px;
 }
 
-.logo, .inputbox {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+.centerBlock {
+  display: block;
+  margin: auto;
+  padding-top: 160px;
 }
 
 .logo {
   width: 30%;
-  display: block;
-  margin-top: 70px;
- 
 }
 
-.inputbox [type=text] {
+.inputBox [type=text] {
+  border: 1px;
+  border-color: #f2f2f2;
+  box-shadow: 2px 2px 5px grey;
   padding: 12px 20px;
   box-sizing: border-box; 
 }
 
-form {
+input {
+  display: inline;
+  width: 90%;
+  padding: 12px;
+  font-size: 18px;
   text-align: center;
+  border: 0px;
 }
 
 #appIcon {
@@ -50,3 +60,6 @@ form {
   padding-right: 5px;
 }
 
+#appIcon:hover {
+  opacity: 1.0;
+}
