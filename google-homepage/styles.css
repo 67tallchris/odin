@@ -42,9 +42,11 @@ a {
 }
 
 .logo {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   width: 70%;
+  padding: 4px;
 }
 
 .searchButtons {
