@@ -1,4 +1,4 @@
-ul.topnav {
+ul, .topnav, .right {
   list-style-type: none;
   margin: 0px;
   display: inline;
@@ -14,11 +14,6 @@ ul.topnav {
   float: left;
   left: 3px;
   padding: 2px;
-}
-
-a {
-  display: block;
-  padding: 1px;
 }
 
 .logo, .inputbox {
