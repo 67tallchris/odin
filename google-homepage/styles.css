@@ -1,7 +1,13 @@
-ul, .topnav, .right {
+ul {
   list-style-type: none;
   margin: 0px;
   display: inline;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  position: relative;
 }
 
 .right {
@@ -37,3 +43,11 @@ ul, .topnav, .right {
 form {
   text-align: center;
 }
+
+#appIcon {
+  height: 16px;
+  vertical-align: middle;
+  opacity: 0.6;g
+  padding-right: 5px;
+}
+
