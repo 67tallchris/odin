@@ -42,15 +42,23 @@ a {
 }
 
 .logo {
-  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
 }
 
-.inputBox [type=text] {
+#inputBox {
   border: 1px;
   border-color: #f2f2f2;
   box-shadow: 2px 2px 5px grey;
   padding: 12px 20px;
   box-sizing: border-box; 
+}
+
+#inputbox:hover {
+  border: 2px;
+  border-color: grey;
+  box-shadow: 2px 2px 5px;
 }
 
 input {
@@ -76,6 +84,13 @@ input {
   padding: 14px;
 }
 
+#mic {
+  position: relative;
+  height: 20px;
+  left: -2%;
+  vertical-align: middle;  
+}
+
 #appIcon {
   height: 16px;
   vertical-align: middle;
@@ -85,4 +100,18 @@ input {
 
 #appIcon:hover {
   opacity: 1.0;
+}
+
+#signIn {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: 1px solid #4285f4;
+  color: white;
+  padding: 0px 12px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: auto;
+  line-height: 28px;
+  border-radius: 2px;
 }
