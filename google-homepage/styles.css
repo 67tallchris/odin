@@ -26,9 +26,18 @@ a {
   padding: 8px;
 }
 
+.right a:hover {
+  text-decoration: underline;
+}
+
+.left:hover {
+  text-decoration: underline;
+}
+
 .centerBlock {
   display: block;
   margin: auto;
+  width: 550px;
   padding-top: 160px;
 }
 
@@ -51,6 +60,20 @@ input {
   font-size: 18px;
   text-align: center;
   border: 0px;
+}
+
+.buttons {
+  display: inline;
+  margin: 15px 3px;
+  height: 40px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  font-size: small;
+  font-weight: bold;
+  color: #575757;
+  line-height: 0;
+  padding: 14px;
 }
 
 #appIcon {
