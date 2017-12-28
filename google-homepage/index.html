@@ -7,10 +7,12 @@
   <ul class="topnav">
     <li><a class="left" href="#about">About</a></li>
     <li><a class="left" href="#store">Store</a></li>
-    <li><a class="right" href="#gmail">Gmail</a></li>
-    <li><a class="right" href="#images">Images</a></li>
-    <li><a class="right" href="#"><img id="appIcon" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png"></a></li>
-    <li><a class="right" id="signIn" href="#">Sign In</a></li>
+    <div class="right">
+      <li><a href="#gmail">Gmail</a></li>
+      <li><a href="#images">Images</a></li>
+      <li><a href="#"><img id="appIcon" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png"></a></li>
+      <li><a id="signIn" href="#">Sign In</a></li>
+    </div>
     </ul>
   </nav>
 </head>
@@ -19,8 +21,11 @@
     <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
     <form class="inputbox">
       <input type="search" name="searchbox">
-      <input type="submit" value="search">
     </form>
+  </div>
+  <div class="searchButtons">
+    <button class="buttons" name="GoogleSearch">Google Search</button>
+    <button class="buttons" name="FeelingLucky">I'm Feeling Lucky</button>
   </div>
   </body>
 </html>
