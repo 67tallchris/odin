@@ -47,6 +47,18 @@ a {
   width: 70%;
 }
 
+.searchButtons {
+  margin-left: 25%;
+}
+
+.buttons:hover {
+  Border: 1px solid #b4b6ba;
+}
+
+.buttons:focus {
+  outline: none;
+}
+
 #inputBox {
   border: 1px;
   border-color: #f2f2f2;
