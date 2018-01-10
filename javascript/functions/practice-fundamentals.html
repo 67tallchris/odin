@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+
+<script>
+
+let getX = prompt("write a number");
+let getY = prompt("write another number");
+// add 7 takes one number and returns that number + 7
+
+function add7() {
+  getX += 7;
+  return getX;
+}
+
+
+console.info("add 7 answer");
+console.log(add7());
+// write a function called multiply that takes two numbers and returns their product
+
+  let x;
+  let y;
+
+function multiply(x,y) {
+  return getX * getY;  
+}
+
+console.info("Multiply Answer");
+
+console.log(multiply());
+
+// function = capitalize() returns a new string with only the first letter capitalized
+
+function capitalizeFirstLetter() {
+  let strng = "this needs to BE capitalized";
+  return strng.charAt(0).toUpperCase() + strng.slice(1);
+}
+console.info("return string with first letter capital");
+console.log(capitalizeFirstLetter());
+
+// last letter, return the last letter of the above string
+
+function lastLetter() {
+  let strng = "this needs to BE capitalized";  
+  let lio = strng.lastIndexOf("");
+
+  return substring(lio);
+}
+
+console.info("Should pull last letter from strng");
+console.log(lastLetter());
+</script>
+</body>
+</html>
+
